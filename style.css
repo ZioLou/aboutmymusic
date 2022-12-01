@@ -1,0 +1,333 @@
+/* ----------------------General---------------------------- */
+
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(242, 0, 255);
+    transition: 2s;
+}
+
+button {
+    font-size: 1.8vh;
+    padding: 0.3vh 1vh;
+    margin-inline: 1vh;
+    border: 1.5px solid;
+    border-radius: 10px;
+    min-width: 0.5vh;
+    max-width: 9vh;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button {
+    border-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+button:hover {
+
+    box-shadow: 0 0em 1em 0.5em rgb(132, 0, 255);
+    transform: translateY(-0.25);
+    transition: 2s;
+}
+
+hr {
+    border: 2px  solid;
+    border-radius: 10px
+}
+
+
+    
+
+/* ----------------------Landing Page-------------------------- */
+
+#navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#tutto {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Questrial', sans-serif;
+    z-index: 1;
+    color: white;
+}
+
+#tutto footer {
+    text-align: center;
+    position: relative;
+    bottom: -350px;
+    font-size: small;
+}
+
+#logoz:hover{
+    /* box-shadow: 0 -1.5em 2em -0.2em rgba(0, 0, 255, 0.43); */
+    border-radius: 700px;
+    transform: translateY(-0.25);
+    transition: 2s;
+}
+
+
+#arrow {
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce{
+    0%, 25%, 55%, 75%, 100%{
+        transform: translateY(0);
+    }
+    45%{
+        transform: translateY(-20px);
+    }
+    65%{
+        transform: translateY(-10px);
+    }
+    85%{
+        transform: translateY(-7px);
+    }
+}
+
+.vid {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(119, 40, 40);
+}
+
+.vid:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.086);
+}
+
+.vid video {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* ----------------------in comune---------------------------- */
+
+
+#logonav {
+    max-height: 30px;
+    min-height: 26px;
+}
+
+#par {
+    text-shadow: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+  
+/* ----------------------sounds---------------------------- */
+
+#snd {
+    font-family: 'Questrial', sans-serif;
+    background-image: url('me.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#YT iframe {
+    box-shadow: 0 0em 1em 0.2em rgba(0, 0, 0, 0.733);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: auto;
+    padding: 0;
+    top: 2%;
+    left: 0;
+    /* width: 80%;
+    height: 100%; */
+    /* max-width: 560px;
+    max-height: 315px; */
+}
+
+
+#SP iframe{
+    box-shadow: 0 0em 1em 0.2em rgba(0, 0, 0, 0.638);
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 0%;
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    max-width: 560px;
+    max-height: 515px;
+}
+
+#ch iframe {
+    margin-bottom: 10px;
+    
+}
+
+#TD iframe {
+    box-shadow: 0 0em 1em 0.2em rgba(0, 0, 0, 0.638);;
+    box-sizing: border-box;
+    border-radius: 18px!important;
+    margin-top: 10px;
+}
+
+#snd footer {
+    text-align: center;
+    font-size: small;
+    color: white;
+    position: relative;
+    bottom: -50px;
+    margin-bottom: 90px;
+
+}
+
+
+/* ---------------navbar sounds--------------- */
+
+
+#bgr {
+    align-items: center;
+    justify-content: center;
+    background-size: 200% 200%;
+    background-image: linear-gradient(-45deg,
+            rgba(17, 0, 255, 0.973) 1%,
+            rgba(19, 68, 103, 0.68) 25%,
+            rgba(154, 0, 211, 0.718) 51%,
+            rgba(0, 95, 113, 0.746) 100%);
+    animation: AnimateBG 10s ease infinite;
+    box-shadow: 0 0em 1em 0.1em rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: auto;
+  }
+
+/* -------------------Social------------------- */
+
+#scl {
+    font-family: 'Questrial', sans-serif;
+    background-image: url('me3.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#scl footer {
+    text-align: center;
+    font-size: small;
+    color: white;
+    position: relative;
+    bottom: -50px;
+    margin-bottom: 90px;
+}
+
+#post {
+    margin:20px!important;
+    padding: 0;
+}
+
+.instagram-media {
+    align-items: center!important;
+}
+
+
+
+/* ---------------navbar social--------------- */
+
+
+#bgr3 {
+    align-items: center;
+    justify-content: center;
+    background-size: 200% 200%;
+    background-image: linear-gradient(-45deg,
+            rgba(0, 0, 0, 0.973) 1%,
+            rgba(0, 17, 255, 0.68) 25%,
+            rgba(204, 0, 255, 0.718) 51%,
+            rgba(0, 0, 0, 0.746) 100%);
+    animation: AnimateBG 10s ease infinite;
+    box-shadow: 0 0em 1em 0.1em rgb(255, 255, 255);
+    z-index: 1;
+}
+
+
+
+/* -------------------contact------------------- */
+
+#cnt {
+    font-family: 'Questrial', sans-serif;
+    background-image: url('me2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ---------------navbar Contact--------------- */
+
+
+#bgr2 {
+    align-items: center;
+    justify-content: center;
+    background-size: 200% 200%;
+    background-image: linear-gradient(-45deg,
+            rgba(255, 0, 0, 0.973) 1%,
+            rgba(208, 0, 255, 0.68) 25%,
+            rgba(191, 255, 0, 0.718) 51%,
+            rgba(255, 0, 0, 0.746) 100%);
+    animation: AnimateBG 10s ease infinite;
+    box-shadow: 0 0em 1em 0.1em rgb(255, 255, 255);
+    z-index: 1;
+}
+
+
