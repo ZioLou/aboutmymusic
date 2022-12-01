@@ -12,28 +12,6 @@ a:hover {
     transition: 2s;
 }
 
-button {
-    font-size: 1.8vh;
-    padding: 0.3vh 1vh;
-    margin-inline: 1vh;
-    border: 2px solid;
-    border-radius: 10px;
-    min-width: 0.5vh;
-    max-width: 9vh;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-button {
-    border-color: rgb(255, 255, 255);
-    transition: 1s;
-}
-
-button:hover {
-
-    box-shadow: 0 0 1em 0.5em rgb(132, 0, 255);
-    transform: translateY(-0.25%);
-    transition: 2s;
-}
 
 hr {
     border: 2px  solid;

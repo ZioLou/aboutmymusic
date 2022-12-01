@@ -1,0 +1,17 @@
+#navi a {
+    font-size: 1.8vh;
+    padding: 0.3vh 1vh;
+    margin-inline: 1vh;
+    border-radius: 10px;
+    min-width: 0.5vh;
+    max-width: 9vh;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+
+#navi a:hover {
+    box-shadow: 0 0 1em 0.5em rgb(132, 0, 255);
+    transform: translateY(-0.25%);
+    transition: 2s;
+}
