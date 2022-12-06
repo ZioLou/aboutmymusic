@@ -23,12 +23,6 @@ hr {
 
 /* ----------------------Landing Page-------------------------- */
 
-#navi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
 
 #tutto {
     position: absolute;
@@ -43,9 +37,8 @@ hr {
 #tutto footer {
     text-align: center;
     position: relative;
-    bottom: -350px;
+    bottom: -40vh;
     font-size: small;
-    z-index: 2;
 }
 
 #logoz:hover{
