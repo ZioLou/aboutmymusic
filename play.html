@@ -4,15 +4,6 @@
 
 <head>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTXCV3B6RQ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QTXCV3B6RQ');
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/navbar.css">
 
     <meta name="description" content="Luca Pavone's landing page." />
     <meta property="og:title" content="LPMusic" />
@@ -28,10 +20,11 @@
     <meta property="og:image" content="//favicon.png" />
 
     <!--    Favicon section -->
-    <link rel="apple-touch-icon" sizes="180x180" href="resources/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="resources/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="resources/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="resources/images/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/LPLogo.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/LPLogo.ico">
+    <link rel="icon" type="image/png" sizes="64x64" href="resources/favicons/LPLogo.ico">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!-------->
@@ -48,19 +41,23 @@
 <nav class="navbar" id="bgr">
     <div class="container-fluid text-center">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">
+            <div class="row justify-content-center">
+                <div class="col-3">
                     <a class="navbar-brand" href="index.html">
                         <img src="resources/images/Luca%20Pavone%20Logo%20vector.png" class="img-fluid" id="logonav"
                              alt="Logo">
                     </a>
                 </div>
-                <div class="col-4 p-1">
-                    <a href="Social.html"><b>SOCIAL</b></a>
+                <div class="col-3 p-1">
+                    <a href="social.html">SOCIAL</a>
                 </div>
-                <div class="col-4 p-1">
-                    <a href="mailto:l.pavone.contact@gmail.com"><b>CONTACT</b></a>
+                <div class="col-3 p-1">
+                    <a href="play.html">PLAY &#x23f5;</a>
                 </div>
+                <div class="col-3 p-1">
+                    <a href="mailto:l.pavone.contact@gmail.com">BOOKING</a>
+                </div>
+
             </div>
         </div>
     </div>
