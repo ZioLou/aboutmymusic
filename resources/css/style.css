@@ -165,27 +165,13 @@ hr {
     max-height: 315px; */
 }
 
-
-#SP iframe{
-    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.638);
-    background-color: black;
-    box-sizing: border-box;
-    border-radius: 16px;
-    padding: 0;
-    margin: auto;
-    width: 90%;
-    height: 350px;
-    max-width: 560px;
-    max-height: 515px;
-}
-
 #ch iframe {
     margin-bottom: 10px;
     
 }
 
 #TD iframe {
-    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.638);;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.638);
     box-sizing: border-box;
     border-radius: 18px!important;
     margin-top: 10px;
@@ -263,8 +249,6 @@ hr {
     background-size: cover;
 
 }
-
-
 
 
 
